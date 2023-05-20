@@ -40,16 +40,19 @@ Deployed to Polygon Chain:
 First, run the development server:
 
 ```text
-clone the repo https://github.com/holyaustin/Mominter.git
+clone the repo https://github.com/holyaustin/LuckyGames.git
 # next is to 
-npm install
+cd LuckyGames
+# next is to 
+pnpm run dev
 # then
-npm run dev
-# or
-yarn dev
-```
+pop over to http://localhost:3000(opens in a new tab) and checkout your live app.
 
-Open [http://localhost:3016](http://localhost:3016) with your browser to see the result.
+to build
+# or
+pnpm run build
+pnpm run preview
+```
 
 ## How to run this project locally
 
@@ -57,17 +60,10 @@ Try running some of the following tasks:
 
 Fork this repo using
 
-git clone <https://github.com/holyaustin/Mominter.git>
+git clone <https://github.com/holyaustin/LuckyGames.git>
 
-cd soldier-ant-colony
 
-npx hardhat node
-
-npx hardhat run scripts/deploy.js --network localhost
-
-npm run build
-
-## How to deploy to Filecoin  blockchain, update hardhat.config
+## How to deploy to MUD Testnet
 
 npx hardhat run scripts/deploy.js --network testnet
 
