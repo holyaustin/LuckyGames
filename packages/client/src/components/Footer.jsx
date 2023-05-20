@@ -10,6 +10,11 @@ const Footer = () => (
       </div>
       <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-2 w-full">
         <p className="text-white text-center text-base">Lucky Games 2023. All rights reserved.</p>
+        <br />
+
+      </div>
+      <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-2 w-full">
+       <br />
         <p className="text-white text-center text-lg">ETHGlobalAutonomous Worlds Sponsors : Optimism, 0xPARC, Lattice, NFT.Storage.</p>
 
       </div>
