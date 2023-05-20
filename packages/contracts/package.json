@@ -23,11 +23,11 @@
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/bytes": "^5.7.0",
     "@ethersproject/providers": "^5.7.2",
-    "@latticexyz/cli": "2.0.0-alpha.1.157+54e39586",
-    "@latticexyz/schema-type": "2.0.0-alpha.1.157+54e39586",
-    "@latticexyz/std-contracts": "2.0.0-alpha.1.157+54e39586",
-    "@latticexyz/store": "2.0.0-alpha.1.157+54e39586",
-    "@latticexyz/world": "2.0.0-alpha.1.157+54e39586",
+    "@latticexyz/cli": "2.0.0-alpha.1.175+641d0d35",
+    "@latticexyz/schema-type": "2.0.0-alpha.1.175+641d0d35",
+    "@latticexyz/std-contracts": "2.0.0-alpha.1.175+641d0d35",
+    "@latticexyz/store": "2.0.0-alpha.1.175+641d0d35",
+    "@latticexyz/world": "2.0.0-alpha.1.175+641d0d35",
     "ethers": "^5.7.2"
   },
   "devDependencies": {
@@ -38,6 +38,7 @@
     "prettier": "^2.6.2",
     "prettier-plugin-solidity": "^1.0.0-beta.19",
     "solhint": "^3.3.7",
+    "solhint-plugin-mud": "2.0.0-alpha.1.175+641d0d35",
     "typechain": "^8.1.1"
   }
 }
