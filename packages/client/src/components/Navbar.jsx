@@ -32,8 +32,6 @@ const Navbar = () => {
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         <Link to="/pages/create">Create</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        <Link to="/about">About</Link>
-        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         <Link to="/guess">Guess</Link>
 
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>

@@ -1,8 +1,7 @@
 import { useComponentValue } from "@latticexyz/react";
 import { useMUD } from "./MUDContext";
 import { GlobalAppContextProvider } from './contexts/GlobalAppContext';
-import { Navbar } from "./components";
-import { Footer } from "./components";
+import { Navbar, Footer } from "./components";
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import Create from "./pages/create";
 import Home from "./home";
@@ -24,6 +23,7 @@ export const App = () => {
           <Route path="/pages/create" element={<Create />} />
           <Route path="/learn" element={<Learn />} />
       </Routes> 
+
       <Footer />
    </BrowserRouter>
    </GlobalAppContextProvider>

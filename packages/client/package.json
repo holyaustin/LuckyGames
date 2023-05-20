@@ -38,6 +38,7 @@
     "react": "^18.2.0",
     "react-blockies": "^1.4.1",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
     "react-router-dom": "^6.11.2",
     "web3modal": "^1.9.12"
   },
