@@ -1,7 +1,8 @@
+import { AboutCom} from "./components";
 function About() {
     return (
-      <div>
-        <h1>This is the About page</h1>
+      <div className= "bg-green-700">
+        <AboutCom />
       </div>
     );
   }

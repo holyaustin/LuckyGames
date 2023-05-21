@@ -1,10 +1,12 @@
-import { Welcome, Services } from "./components";
+import { Welcome } from "./components";
+import { Services } from "./components";
 
 function Home() {
     return (
       <div className="bg-black">
           <Welcome />
-          {/**<Services /> */}
+          <Services />
+          
       </div>
     );
   }

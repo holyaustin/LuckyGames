@@ -3,10 +3,10 @@ import { useMUD } from "./MUDContext";
 import { GlobalAppContextProvider } from './contexts/GlobalAppContext';
 import { Navbar, Footer } from "./components";
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
-import Create from "./pages/create";
+import Create from "./create";
 import Home from "./home";
 import About from "./about";
-import Learn from "./learn";
+import Project from "./project";
 import Guess from "./guess";
 
 export const App = () => {
@@ -20,8 +20,8 @@ export const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/guess" element={<Guess />} />
           <Route path="/about" element={<About />} />
-          <Route path="/pages/create" element={<Create />} />
-          <Route path="/learn" element={<Learn />} />
+          <Route path="/create" element={<Create />} />
+          <Route path="/project" element={<Project />} />
       </Routes> 
 
       <Footer />

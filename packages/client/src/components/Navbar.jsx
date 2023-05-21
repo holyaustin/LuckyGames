@@ -2,13 +2,12 @@ import React from "react";
 //import { HiMenuAlt4 } from "react-icons/hi";
 //import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import ConnectSequence from "./sequencewallet.tsx";
 import ConnectWallet from "./ConnectWallet";
 import logo from "../assets/logogreen.png";
-import Create from "../pages/create";
+import Create from "../create.jsx";
 import Home from "../home";
 import About from "../about";
-import Learn from "../learn";
+import Project from "../project";
 import Guess from "../guess";
 
 //const NavBarItem = ({ title, classprops }) => (
@@ -28,21 +27,16 @@ const Navbar = () => {
      
         <Link to="/">Home</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        <Link to="/learn">Learn</Link>
+        <Link to="/project">Projects</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        <Link to="/pages/create">Create</Link>
+        <Link to="/create">Create</Link>
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        <Link to="/guess">Guess</Link>
+        <Link to="/about">About</Link>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <Link to="/guess">Play</Link>
 
         <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-{/**
-        <li className="justify-center text-black font-semibold bg-green-300 py-3 px-5 mx-5 sm:mx-3 sm:py-4 sm:px-8 rounded-full cursor-pointer hover:bg-green-800 hover:text-white text-center">
-          <a href="https://zkbridge.com/nft" target="_blank" rel="noreferrer">
-            NFT Bridge
-          </a>
-        </li>
 
-        <ConnectSequence />*/}
         <ConnectWallet />  
       </ul>
 

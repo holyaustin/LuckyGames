@@ -31,6 +31,7 @@
     "@web3-onboard/core": "^2.19.1",
     "@web3-onboard/injected-wallets": "^2.9.0",
     "@web3-onboard/walletconnect": "^2.3.8",
+    "axios": "^1.4.0",
     "contracts": "workspace:*",
     "ethers": "^5.7.2",
     "nft.storage": "^7.0.3",
