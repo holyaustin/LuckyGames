@@ -97,7 +97,6 @@ export default function Sender() {
               <img
                 title="Waste"
                 frameBorder="0"
-                scrolling="no"
                 height="400px"
                 width="100%"
                 src={`${nft.image}#toolbar=0`}
