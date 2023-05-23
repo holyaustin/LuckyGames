@@ -41,7 +41,7 @@ Deployed to Optimism Goerli testnet:
 
    World address : 0xAfE90b5F6c9d2bD638b9B6D38F4c7624dE95023B
 
- Youtube video link: <https://youtu.be/kZvxCGMPci8>
+ Youtube video link: <https://youtu.be/9DRB_33YcGc>
 
 ## Getting Started
 

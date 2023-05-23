@@ -38,9 +38,11 @@
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-blockies": "^1.4.1",
+    "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.11.2",
+    "react-use": "^17.4.0",
     "web3modal": "^1.9.12"
   },
   "devDependencies": {

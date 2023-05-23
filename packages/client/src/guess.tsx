@@ -3,8 +3,11 @@ import { useComponentValue } from "@latticexyz/react";
 import { useMUD } from "./MUDContext";
 import { ethers } from "ethers";
 import Web3Modal from "web3modal";
+import useWindowSize from 'react-use/lib/useWindowSize';
+import Confetti from 'react-confetti';
 
 const Guess = () => {
+  const { width, height } = useWindowSize();
   const [formInput, updateFormInput] = useState({ name: "" });
 
   const {
@@ -70,9 +73,12 @@ const tx = await {
   
   return (
     <div className=" justify-center mt-20 pb-20 bg-green-700">  
-
-
-
+        
+            <Confetti
+              width={width}
+              height={height}
+            />
+          
       <div className="flex justify-center mt-20">
         <div className="w-1/2 flex flex-col pb-20 ">
         <p className="text-4xl font-bold underline text-center mt-10">
