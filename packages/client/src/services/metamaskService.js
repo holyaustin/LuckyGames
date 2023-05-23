@@ -2,7 +2,7 @@ export const switchToHederaNetwork = async (ethereum) => {
   try {
     await ethereum.request({
       method: 'wallet_switchEthereumChain',
-      params: [{ chainId: '0x128' }] // chainId must be in hexadecimal numbers
+      params: [{ chainId: '0x1a4' }] // chainId must be in hexadecimal numbers
     });
   } catch (error) {
     if (error.code === 4902) {
@@ -11,14 +11,14 @@ export const switchToHederaNetwork = async (ethereum) => {
           method: 'wallet_addEthereumChain',
           params: [
             {
-              chainName: 'Hedera Testnet',
-              chainId: '0x128',
+              chainName: 'Optimism Goerli Testnet',
+              chainId: '0x1a4',
               nativeCurrency: {
-                name: 'HBAR',
-                symbol: 'HBAR',
+                name: 'ETH',
+                symbol: 'ETH',
                 decimals: 18
               },
-              rpcUrls: ['https://testnet.hashio.io/api']
+              rpcUrls: ['https://goerli.optimism.io']
             },
           ],
         });

@@ -14,16 +14,16 @@ const injected = injectedModule();
 
 const modules = [coinbaseWalletSdk, walletConnect, injected];
 
-const TESTNET_RPC_URL = "https://testnet.hashio.io/api";
+const TESTNET_RPC_URL = "https://goerli.optimism.io";
 
 const onboard = Onboard({
   wallets: modules, // created in previous step
   chains: [
     {
       id: "0x128",
-      token: "HBAR",
+      token: "ETH",
       namespace: "evm",
-      label: "Hedera Testnet",
+      label: "Optimism Goerli Testnet",
       rpcUrl: TESTNET_RPC_URL
     },
   ],

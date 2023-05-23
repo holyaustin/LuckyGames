@@ -4,11 +4,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ConnectWallet from "./ConnectWallet";
 import logo from "../assets/logogreen.png";
-import Create from "../create.jsx";
-import Home from "../home";
-import About from "../about";
-import Project from "../project";
-import Guess from "../guess";
 
 //const NavBarItem = ({ title, classprops }) => (
  // <li className={`mx-4 cursor-pointer ${classprops}`}>{title}</li>
